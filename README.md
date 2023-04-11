@@ -1,4 +1,4 @@
-An implementation of the [Nanobox Custom Provider](https://docs.nanobox.io/providers/create/) spec for DigitalOcean.
+An implementation of the [Microbox Custom Provider](https://docs.microbox.cloud/providers/create/) spec for DigitalOcean.
 
 ## Development
 
@@ -9,7 +9,7 @@ An implementation of the [Nanobox Custom Provider](https://docs.nanobox.io/provi
 
 ### Local Evars
 A DigitalOcean Access Token is required to retrieve the catalog.
-`nanobox evar add ACCESS_TOKEN=your_digital_ocean_access_token`
+`microbox evar add ACCESS_TOKEN=your_digital_ocean_access_token`
 
 ### Console
 `bundle exec irb -I. -r app.rb`

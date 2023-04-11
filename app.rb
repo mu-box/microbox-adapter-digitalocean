@@ -21,8 +21,8 @@ end
 
 get '/' do
   content_type 'text/html'
-  'DigitalOcean API Adapter for Nanobox. ' \
-  'source: https://github.com/nanobox-io/nanobox-adapter-digitalocean'
+  'DigitalOcean API Adapter for Microbox. ' \
+  'source: https://github.com/mu-box/microbox-adapter-digitalocean'
 end
 
 get '/meta' do
